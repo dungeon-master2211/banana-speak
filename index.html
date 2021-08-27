@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana talk</title>
+    <style>
+        .container{
+            padding:1rem;
+        }
+        .container-center{
+            max-width: 600px;
+            margin: auto;
+        }
+        textarea{
+            display: block;
+            width:80%;
+            height: 10vh;
+            margin:1rem 0;
+            padding: 1rem;
+        }
+        .output{
+            border:1px solid black;
+            width: 80%;
+            height: 10vh;
+            margin: 1rem 0;
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container container-center">
+
+        <textarea id="usr-input" placeholder="write here....."></textarea>
+        <button id="translate">Translate</button>
+
+        <div class="output container container-center" id="output"></div>
+
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
